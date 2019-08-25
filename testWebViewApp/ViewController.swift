@@ -25,7 +25,6 @@ class ViewController: UIViewController , WKNavigationDelegate , UISearchBarDeleg
         let request = URLRequest(url: url!)
         
         webview.load(request)
-        
         webview.addSubview(ActionDialoge)
         ActionDialoge.startAnimating()
         webview.navigationDelegate = self
